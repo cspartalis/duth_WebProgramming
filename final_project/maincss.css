@@ -1,0 +1,259 @@
+#hxos{
+   margin: 10px;
+   height: 100px;
+   width: 300px;
+}
+
+#vid{
+   margin: 10px;
+   height: 50%;
+   width: 300px;
+}
+
+
+#logo{
+   position: fixed;
+   width: 200px;
+   height: 200px;
+   margin-top: 15px;
+   margin-left: 25px;
+}
+
+#roloi{
+   position: fixed;
+   width: 150px;
+   height: 150px;
+   margin-left: 50px;
+   top: 64%;
+}
+
+#date{
+   text-align: center;
+   position: fixed;
+   width: 200px;
+   height: 40px;
+   margin-left: 25px;
+   top: 88%;
+}
+
+#google_translate_element{
+  position: fixed;
+  left: 850px;
+  margin-top: 10px;
+}
+
+#validator{
+   position: fixed;
+   left: 850px;
+   margin-top: 50px;
+}
+
+#views{
+	position: fixed;
+	margin-top: 35px;
+	left: 1100px;
+}
+
+#viewers{
+	position: fixed;
+	margin-top: 65px;
+	left: 1100px;
+}	
+
+section{;
+   position: fixed;
+   top: 150px;
+   left: 240px;
+   width: 1100px;
+   height: 470px;
+   overflow: auto;
+}   
+
+
+nav{
+   border: 0px solid black;
+   margin-left: 25px;
+   width: 200px;
+   height: 175px;
+   position: fixed;
+   top: 35%;
+   overflow: hidden;
+}
+
+header{
+   position: fixed;
+   left: 240px;
+   margin-top: 15px;
+   width: 600px;
+   height: 100px;
+   font: 50px bold;
+   font-family: courier;
+   text-align: center;
+}
+
+article{
+   float: left;
+   background-color: #ddd;
+   border: 2px solid black;
+   border-style: outset;
+   margin: 5px;
+   margin-bottom: 20px;
+   padding: 8px;
+   width: 30%;
+   height: 40%;
+   overflow: hidden;
+   text-overflow: ellipsis;
+}
+
+span{
+   color: #bb0000;
+   font-size: 80px;
+}
+
+ul {
+   list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 175px;
+    overflow: hidden;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #555;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #aaa;
+    color: white;
+}
+
+h4, h2{
+   text-align: center;
+}
+
+
+t{
+   font-size: 20px;
+   color: #660000;
+   font-weight: bold;
+}
+
+
+/* Add animation (Standard syntax) */
+@keyframes example {
+    from {top:-100px;opacity: 0;}
+    to {top:0px;opacity:1;}
+}
+
+/* The modal's background */
+.modal {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Display the modal when targeted*/
+.modal:target {
+  display: table;
+  position: absolute;
+}
+
+/* The modal box */
+.modal-dialog {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* The modal's content */
+.modal-dialog .modal-content {
+  margin: auto;
+  background-color: #f3f3f3;
+  position: relative;
+  padding: 0;
+  outline: 0;
+  border: 1px #777 solid;
+  text-align: justify;
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  /* Add animation */
+  animation-name: example;
+  animation-duration: 0.5s;
+}
+
+/* The button used to close the modal */
+.closebtn {
+  text-decoration: none;
+  float: right;
+  font-size: 35px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.closebtn:hover,
+.closebtn:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+#titlos {
+  background-color: #660000;
+  font-size: 25px;
+  color: white;
+}
+
+#onoma {
+  background-color: #660000;
+  font-size: 20px;
+  color: white;
+  text-align: right;
+}
+
+article a{
+   text-decoration: none;
+}
+
+div.img {
+    margin: 5px;
+    float: left;
+    width: 180px;
+    width: 30%;
+    border: 2px solid black;
+    border-style: outset;
+}	
+
+div.img:hover {
+    border: 2px solid #bb0000;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
