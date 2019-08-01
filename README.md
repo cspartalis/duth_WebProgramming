@@ -1,4 +1,5 @@
-# My class project on "Web Programming" in Democritus University of Thrace
+# My class project on "Web Programming" at Democritus University of Thrace
+Professor: Alexandros Karakos
 
 The aim of the project is to create a website using:
 * html5
